@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link data-require="bootstrap-css@4.0.0-alpha.4" data-semver="4.0.0-alpha.4" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+  <script src="scripts/satquiz.js"></script>
+</head>
+
+<body>
+  <h1>SAT Sentence Completion Quiz</h1>
+
+  <form id="quiz" name="quiz">
+    <p>The revolution in art has not lost its steam; it ____ on as fiercely as ever.</p>
+    <input type="radio" id="mc" name="question1" value="trudges">trudges
+    <br>
+    <input type="radio" id="mc" name="question1" value="meanders">meanders
+    <br>
+    <input type="radio" id="mc" name="question1" value="edges">edges
+    <br>
+    <input type="radio" id="mc" name="question1" value="ambles">ambles
+    <br>
+    <input type="radio" id="mc" name="question1" value="rages">rages
+    <br><br>
+
+    <p>Each occupation has its own ____ ; bankers, lawyers and computer professionals, for example, all use among themselves language which outsiders have difficulty following.</p>
+    <input type="radio" id="mc" name="question2" value="merits">merits
+    <br>
+    <input type="radio" id="mc" name="question2" value="disadvantages">disadvantages
+    <br>
+    <input type="radio" id="mc" name="question2" value="rewards">rewards
+    <br>
+    <input type="radio" id="mc" name="question2" value="jargon">jargon
+    <br>
+    <input type="radio" id="mc" name="question2" value="problems">problems
+    <br><br>
+
+    <p>____ by nature, Jones spoke very little even to his own family members."</p>
+    <input type="radio" id="mc" name="question3" value="garrulous">garrulous
+    <br>
+    <input type="radio" id="mc" name="question3" value="equivocal">equivocal
+    <br>
+    <input type="radio" id="mc" name="question3" value="taciturn">taciturn
+    <br>
+    <input type="radio" id="mc" name="question3" value="arrogant">arrogant
+    <br>
+    <input type="radio" id="mc" name="question3" value="gregarious">gregarious
+    <br><br>
+
+    <p>Many people at that time believed that spices help preserve food; however, Hall found that many marketed spices were ____ bacteria, moulds and yeasts."</p>
+    <input type="radio" id="mc" name="question4" value="devoid of">devoid of
+    <br>
+    <input type="radio" id="mc" name="question4" value="teeming with">teeming with
+    <br>
+    <input type="radio" id="mc" name="question4" value="improved by">improved by
+    <br>
+    <input type="radio" id="mc" name="question4" value="destroyed by">destroyed by
+    <br>
+    <input type="radio" id="mc" name="question4" value="active against">active against
+    <br><br>
+
+    <p>The two artists differed markedly in their temperaments; Palmer was reserved and courteous, Frazer ____ and boastful.</p>
+    <input type="radio" id="mc" name="question5" value="phlegmatic">phlegmatic
+    <br>
+    <input type="radio" id="mc" name="question5" value="choleric">choleric
+    <br>
+    <input type="radio" id="mc" name="question5" value="constrained">constrained
+    <br>
+    <input type="radio" id="mc" name="question5" value="tractable">tractable
+    <br>
+    <input type="radio" id="mc" name="question5" value="stoic">stoic
+    <br><br>
+
+    <input id="button" type="button" class="next-btn" value="Submit" onclick="check();">
+  </form>
+
+  <div id="after-submit">
+    <p id="message"></p>
+    <p id="number_correct"></p>
+    <img id="picture">
+  </div>
+</body>
+
+</html>
